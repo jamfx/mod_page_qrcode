@@ -2,11 +2,11 @@
   <extension type="module" version="1.5.0" client="site" method="upgrade">
 	<name>QR-Code der Seite</name>
 	<author>Niko Winckel</author>
-	<creationDate>07.01.2019</creationDate>
+	<creationDate>18.01.2023</creationDate>
 	<license>GNU/GPL</license>
 	<authorEmail>joomla@nik-o-mat.de</authorEmail>
 	<authorUrl>www.nik-o-mat.de</authorUrl>
-	<version>1.2</version>
+	<version>1.2.1</version>
 	<description><![CDATA[Mit diesem Modul wird die aktuelle Adresse der aufgerufenen Internetseite als QR-Code als Bild angezeigt. Basiert auf einem Modul von Stefan Meyer (www.Q14siX.de). Angepasst von Niko Winckel (keine PHP-Kurztags mehr, valider Code und ein anderer QR-Dienst mit mehr Optionen, der auch eine kommerzielle Nutzung gestattet). Mehr Infos zur API hier: http://goqr.me/api/doc/create-qr-code/ .]]></description>
 	<files>
 		<filename module="mod_page_qr_code">mod_page_qr_code.php</filename>
