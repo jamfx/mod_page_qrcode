@@ -1,3 +1,3 @@
 # mod_page_qrcode
 
-A Page QR-Code Module for Joomla!
+A Page QR-Code Module for Joomla.
