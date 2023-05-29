@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+    <update>
+        <name>MOD_PAGE_QR_CODE</name>
+        <element>page_qr_code</element>
+        <type>module</type>
+        <client>site</client>
+        <version>2.0.0</version>
+        <downloads>
+            <downloadurl type="full" format="zip">https://github.com/jamfx/mod_page_qrcode/archive/refs/heads/main.zip</downloadurl>
+        </downloads>
+        <maintainer>Niko Winckel</maintainer>
+        <targetplatform name="joomla" version="4"/>
+    </update>
+</updates>
