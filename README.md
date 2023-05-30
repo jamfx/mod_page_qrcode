@@ -8,5 +8,6 @@ Das Modul basierte auf einem Modul von Stefan Meyer (www.Q14siX.de). Angepasst v
 * Grafiken werden jetzt als SVG ausgegeben
 * Layout anpassbar
 * Nur noch Joomla! 4 Kompatibel
+* ## WICHTIG: Das Modul funktioniert nur mit aktivierten SEF-URLs!!! ##
 
 Mehr Infos zur API hier: http://goqr.me/api/doc/create-qr-code/
