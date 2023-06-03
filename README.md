@@ -2,7 +2,7 @@
 A Page QR-Code Module for Joomla!
 Mit diesem Modul wird die aktuelle Adresse der aufgerufenen Internetseite als QR-Code als Bild (SVG) angezeigt.
 Das Modul basierte auf einem Modul von Stefan Meyer (www.Q14siX.de). Angepasst von Niko Winckel und mit massiver Unterstützung von [Guido De Gobbis von JoomTools](https://github.com/joomtools). Ohne [Guido](https://github.com/degobbis) wäre es heute nicht mehr da.
-* keine PHP-Kurztags mehr,
+* ab sofort mit Joomla-Cache und weniger Abfragen an die API,
 * valider Code
 * ein anderer QR-Dienst mit mehr Optionen, der auch eine kommerzielle Nutzung gestattet
 * Grafiken werden jetzt als SVG ausgegeben
