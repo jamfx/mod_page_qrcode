@@ -20,7 +20,7 @@ use Joomla\Registry\Registry;
 /**
  * Script file of Joomla CMS
  *
- * @since  1.6.4
+ * @since  2.0.0
  */
 class Mod_Page_Qr_CodeInstallerScript
 {
@@ -76,8 +76,9 @@ class Mod_Page_Qr_CodeInstallerScript
             return true;
         }
 
+        $this->deleteUnexistingFiles();
+
         if (!empty(self::$fromVersion) && version_compare(self::$fromVersion, '2.0.0', 'lt')) {
-            $this->deleteUnexistingFiles();
             $this->fixDefaultParams();
             $this->fixModulesParams();
         }
@@ -109,6 +110,11 @@ class Mod_Page_Qr_CodeInstallerScript
             '/modules/mod_page_qr_code/mod_page_qr_code.php',
             '/language/de-DE/de-DE.mod_page_qr_code.ini',
             '/language/en-GB/en-GB.mod_page_qr_code.ini',
+            // From prior 2.0.4
+            '/language/de-DE/mod_page_qr_code.ini',
+            '/language/en-GB/mod_page_qr_code.ini',
+            '/language/de-DE/mod_page_qr_code.sys.ini',
+            '/language/en-GB/mod_page_qr_code.sys.ini',
         ];
 
         $status['files_checked']   = $files;
