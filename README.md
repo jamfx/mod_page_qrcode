@@ -7,7 +7,7 @@ Das Modul basierte auf einem Modul von Stefan Meyer (www.Q14siX.de). Angepasst v
 * ein anderer QR-Dienst mit mehr Optionen, der auch eine kommerzielle Nutzung gestattet
 * Grafiken werden jetzt als SVG ausgegeben
 * Layout anpassbar
-* Nur noch Joomla! 4 Kompatibel
+* Ist mit Joomla! 5 und 6 kompatibel
 * ## WICHTIG: Das Modul funktioniert nur mit aktivierten SEF-URLs!!! ##
 
 Mehr Infos zur API hier: http://goqr.me/api/doc/create-qr-code/
